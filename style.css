@@ -1,0 +1,142 @@
+.read-blog {
+  background-color: grey; }
+
+#nav .navbar-brand {
+  font-size: 1.5rem; }
+#nav ul li a {
+  font-size: 12px; }
+#nav ul .active {
+  color: #F6490D; }
+
+.text-head {
+  text-align: center; }
+  .text-head span {
+    font-size: 0.8rem; }
+
+.stuff {
+  padding: 7em 0; }
+  .stuff a {
+    text-decoration: none; }
+
+.blog {
+  z-index: 0;
+  display: block;
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    .blog {
+      margin-bottom: 4em; } }
+  .blog .blog-slider {
+    display: block;
+    z-index: -1;
+    position: relative; }
+  .blog .blog-img {
+    display: block;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    .blog .blog-img img {
+      width: 100%;
+      position: relative; }
+    .blog .blog-img .video {
+      display: table;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 400px; }
+    .blog .blog-img .blog-video {
+      overflow: hidden;
+      margin-bottom: 30px; }
+      @media screen and (max-width: 768px) {
+        .blog .blog-img .blog-video {
+          height: 300px; } }
+  .blog .description {
+    width: 90%;
+    background: #fff;
+    margin-top: -3em;
+    z-index: 1;
+    padding: 1em; }
+    .blog .description h2 {
+      font-weight: 700;
+      font-size: 28px; }
+      .blog .description h2 a {
+        color: #000; }
+    .blog .description .informations {
+      text-transform: uppercase;
+      font-size: 14px; }
+      .blog .description .informations span {
+        padding-right: 10px; }
+        .blog .description .informations span a {
+          color: #000;
+          font-weight: 700; }
+
+.instagram .title {
+  font-weight: 800; }
+.instagram .images {
+  width: 100%;
+  display: flex;
+  position: relative;
+  bottom: -60px; }
+  .instagram .images img {
+    width: 15%;
+    height: 220px; }
+    @media screen and (max-width: 768px) {
+      .instagram .images img {
+        width: 15%;
+        height: 120px; } }
+
+footer {
+  background: #212125;
+  margin-top: -90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative; }
+  footer .blog-footer-links {
+    padding: 0;
+    margin: 0; }
+    @media screen and (max-width: 768px) {
+      footer .blog-footer-links {
+        margin-bottom: 30px; } }
+    footer .blog-footer-links li {
+      padding: 0;
+      margin: 0 0 5px 0;
+      list-style: none;
+      display: block; }
+      footer .blog-footer-links li a {
+        color: gray;
+        text-decoration: none; }
+  footer .recent_post {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 40px; }
+    footer .recent_post .blog-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 70px;
+      height: 60px;
+      float: left; }
+    footer .recent_post .description h3 {
+      font-size: 16px;
+      margin-bottom: 5px; }
+      footer .recent_post .description h3 a {
+        color: #b3b3b3;
+        text-decoration: none; }
+    footer .recent_post .description .author {
+      color: gray;
+      font-size: 13px; }
+  footer h2 {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700; }
+  footer .spare-time a {
+    color: gray;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

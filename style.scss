@@ -1,0 +1,207 @@
+$color: --bs-body-color;
+.read-blog{
+background-color: grey;
+
+}
+#nav{
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+  ul{
+        li{
+a{
+    font-size: 12px;
+}
+        }
+        .active{
+            color: #F6490D;
+        }
+    }
+   
+}
+
+.text-head{
+    text-align: center;
+
+    span{
+        font-size: 0.8rem;
+    }
+}
+
+
+.stuff{
+    padding: 7em 0;
+    a{
+        text-decoration: none;
+    }
+}
+
+.blog {
+    z-index: 0;
+    display: block;
+    position: relative; 
+    @media screen and (max-width: 768px) {  
+        margin-bottom: 4em; }
+        .blog-slider {
+            display: block;
+            z-index: -1;
+            position: relative; }
+
+            .blog-img {
+                display: block;
+                z-index: -1;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img {
+                    width: 100%;
+                    position: relative;
+                     }
+                    .video {
+                        display: table;
+                        width: 100%;
+                        background-size: cover;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        position: relative;
+                        height: 400px; }
+                        .blog-video {
+                            overflow: hidden;
+                            margin-bottom: 30px;
+                            @media screen and (max-width: 768px) {
+       
+                                height: 300px; } 
+                            
+                            
+                            
+                            }
+            }      
+            
+            .description {
+                width: 90%;
+                background: #fff;
+                margin-top: -3em;
+                z-index: 1;
+                padding: 1em; 
+                h2 {
+                    font-weight: 700;
+                    font-size: 28px; 
+                    a {
+                        color: #000; }
+                }
+                .informations {
+                    text-transform: uppercase;
+                    font-size: 14px; 
+                    span {
+                        padding-right: 10px; 
+                        a {
+                            color: #000;
+                            font-weight: 700; }
+                    }}
+            }
+
+
+}
+   
+        
+
+      .instagram{
+        .title{
+            font-weight: 800;
+        }
+        .images
+        {
+            width: 100%;
+            display: flex;
+            position: relative;
+            bottom: -60px;
+            img{
+            
+                   
+                      width: 15%;
+                      height: 220px;
+                       
+
+                      @media screen and (max-width: 768px) {
+
+                        width: 15%;
+                        height: 120px;
+                         
+                      }     
+            }
+        }
+      }
+  
+footer{
+    background: #212125;
+    margin-top: -90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    .blog-footer-links {
+        padding: 0;
+        margin: 0; 
+        @media screen and (max-width: 768px) {
+        
+            margin-bottom: 30px; } 
+            li {
+                padding: 0;
+                margin: 0 0 5px 0;
+                list-style: none;
+                display: block; 
+            a {
+                color: gray;
+                text-decoration: none;
+              
+            }
+            }
+        }
+       
+        .recent_post {
+            position: relative;
+            padding-left: 90px;
+            margin-bottom: 40px;
+            .blog-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 70px;
+                height: 60px;
+                float: left; }
+                .description  {
+
+                    h3{
+                        font-size: 16px;
+                        margin-bottom: 5px; 
+                        a{
+                            color: #b3b3b3;
+                            text-decoration: none;
+                        }
+                    }
+                    
+                   
+                        .author{
+                        color: gray;;
+                            font-size: 13px; 
+                        }
+                }
+        }
+            
+          h2{
+              margin-bottom: 30px;
+    font-size: 14px;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700; 
+          }
+            
+        .spare-time{
+            a{
+                color: gray;
+                text-decoration: none;
+            }
+        }
+}
+
